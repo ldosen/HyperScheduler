@@ -3,11 +3,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333
+    background-color: transparent;
 }
 
 li {
     float: left;
+    padding: 10px;
 }
 
 li a {
@@ -16,8 +17,27 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 li a:hover {
-    background-color: #111
+    background-color: #3c83e8
+}
+
+li.login{
+    float: right;
+}
+
+header{
+    background-image: url("./madonna.jpg");
+    background-color: #cccccc;
+    height: 1020px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body{
+    margin: 0px;
 }

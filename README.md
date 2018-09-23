@@ -1,1 +1,2 @@
-#### readme for hyperscheduler, to be updated as project progresses.
+#### HyperScheduler
+Luke Dosen, Austin Edington
