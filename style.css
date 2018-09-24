@@ -19,7 +19,7 @@ ul {
     color: darkgray;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
+    padding: 10px;
 }
 
 li a {
@@ -153,4 +153,21 @@ body{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.submit {
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 4px 4px 100px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: darkblue;
 }
