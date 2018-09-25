@@ -6,6 +6,15 @@ ul {
     background-color: transparent;
 }
 
+img {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color:transparent;
+
+}
+
 .days{
     margin: 0;
     padding: 10px;
@@ -167,7 +176,6 @@ body{
     margin: 100px 4px 4px 100px;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
 }
 
 .submit:hover{
