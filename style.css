@@ -56,9 +56,30 @@ header{
     background-size: cover;
     position: relative;
 }
+h4{
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc
+}
 
 body{
     margin: 0px;
+    background-color: #ccc 
+}
+
+body a{
+    float: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer{
