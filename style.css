@@ -56,6 +56,18 @@ header{
     background-size: cover;
     position: relative;
 }
+
+h1{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc;
+}
+
 h4{
     float: center;
     display: block;
@@ -64,7 +76,7 @@ h4{
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ccc
+    background-color: #ccc;
 }
 
 body{
@@ -80,6 +92,17 @@ body a{
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc;
 }
 
 footer{
