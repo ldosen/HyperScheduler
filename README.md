@@ -1,7 +1,7 @@
 #### HyperScheduler
 Luke Dosen, Austin Edington
 
-##### TODO:
+##### TODO (strikethrough when implemented):
 
 - homepage rework (the user should land on a login page instead of the homepage itself. From the new homepage, the user can navigate to the content that they need to interact with
 - setup firebase and personalized view of the site
