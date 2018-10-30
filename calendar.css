@@ -1,0 +1,37 @@
+.mfp-planner.light .mfp-selection
+{
+    background-color:#fff7f8;
+}/**
+* Popup forms styles
+*/
+.mfp-popup.light
+{
+    color: #747474;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.35);
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 8pt;
+    background: #fff;
+    border: solid 1px #d4d4d4;
+}
+.mfp-popup.light .mfp-popup-header
+{
+    color: #747474;
+    background-color: #fff;
+    border-color:#d4d4d4;
+}
+.mfp-popup.light .mfp-popup-header a.mfp-close-button
+{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.mfp-popup.light .mfp-popup-header a.mfp-close-button:before
+{
+    content: 'x';
+}
+.mfp-popup.light .mfp-popup-header a.mfp-close-button:hover
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.mfp-popup.light .mfp-popup-content
+{
