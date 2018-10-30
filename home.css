@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    background-color:#f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+li a {
+    float: left;
+    display: block;
+    color: #003152;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+h1{
+    position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+h1 .text-wrapper{
+    position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+h1 .letter{
+    display: inline-block;
+  line-height: 1em;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+.home-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+
+}
+
+.calendar{
+    background-color: transparent;
+    text-decoration: none;
+    color: #003152;
+    padding: 0px;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    border: 2px solid #003152;
+    font-size: 50px;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.calendar:hover{
+    height: 125px;
+    transition: 0.3s;
+}
+
+.calendar:hover .sub-text{
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+.availability{
+    background-color: transparent;
+    color: #003152;
+    padding: 0px;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    border: 2px solid #003152;
+    font-size: 50px;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.availability:hover{
+    height: 125px;
+    transition: 0.3s;
+}
+
+.availability:hover .sub-text{
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+.find-subs{
+    background-color: transparent;
+    color: #003152;
+    padding: 0px;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    border: 2px solid #003152;
+    font-size: 50px;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.find-subs:hover{
+    height: 125px;
+    transition: 0.3s;
+}
+
+.find-subs:hover .sub-text{
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+.sub-text{
+    padding: 0px;
+    display: block;
+    color: #003152;
+    margin: 0px; 
+    font-size: 14px;
+    opacity: 0;
+}
+
+.footer-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 9px;
+    text-align: left;
+    margin: 0px;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
