@@ -25,13 +25,13 @@ li a {
 }
 
 h1{
-    position: relative;
+  position: relative;
   font-weight: 900;
   font-size: 3.3em;
 }
 
 h1 .text-wrapper{
-    position: relative;
+  position: relative;
   display: inline-block;
   padding-top: 0.2em;
   padding-right: 0.05em;
@@ -57,8 +57,29 @@ p{
     margin-top: 150px;
 }
 
+.options{
+    margin: 5px;
+    background-color: #003152;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    float: right;
+    text-align: center;
+}
+.options-li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
 /*
-    Stlye for Calendar
+    Stlye for Calendar -- Designed by MindFusion.eu
 */
 
 .mfp-planner.light .mfp-selection
@@ -71,7 +92,7 @@ p{
 {
     color: #747474;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.35);
-    font-family: Verdana, Arial, Sans-Serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 8pt;
     background: #fff;
     border: solid 1px #d4d4d4;
@@ -133,7 +154,7 @@ p{
     box-sizing: border-box;
     padding: 4px;
     color:#747474;
-    font-family: Verdana, Arial, Sans-Serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .mfp-popup.light .mfp-popup-content .mfp-text-area:hover, 
 .mfp-popup.light .mfp-popup-content .mfp-text-box:hover, 

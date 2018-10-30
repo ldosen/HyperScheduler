@@ -1,3 +1,4 @@
+//Designed by MindFusion.eu
 var p = MindFusion.Scheduling;
 
 // create a new instance of the calendar 

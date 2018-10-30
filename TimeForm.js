@@ -1,3 +1,4 @@
+//Designed by MindFusion.eu
 var p = MindFusion.Scheduling;
 var hoursList;
 
