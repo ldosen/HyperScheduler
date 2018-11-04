@@ -3,7 +3,7 @@ Luke Dosen, Austin Edington
 
 ##### TODO (update this doc with your name next to an item if you plan on implementing it, strikethrough each item when completed):
 
-- homepage rework (the user should land on a login page instead of the homepage itself. From the new homepage, the user can navigate to the content that they need to interact with (Luke)
+- ~homepage rework (the user should land on a login page instead of the homepage itself. From the new homepage, the user can navigate to the content that they need to interact with (Luke)~
 - setup firebase and personalized view of the site (Luke)
 - update the nav bar: when signed in, show the user signed in and perhaps a notifications button as well (Luke)
 - notifications: send a user a notification when a new availability sheet comes out, when the schedule is changed involving them, etc. (Later on down the pipeline)
