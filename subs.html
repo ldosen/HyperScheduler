@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="lander.css">
-    <link rel="shortcut icon" href="./shortcuticon.png"/>
-    <title>Subs</title>
-</head>
-<body>
-    <header class="lander-nav">
-        <nav class="lander-inner">
-            <ul class="lander-list">
-                    <li><a href=placeholder.asp>About HyperScheduler</a></li>
-                    <li><a href=placeholder.asp>Loyola</a></li>
-                    <li><a href=placeholder.asp>Kronos</a></li>
-                    <li><a href=placeholder.asp>Help</a></li>
-                </ul>
-        </nav>
-    </header>
-    <div class="welcome-text">
-        <h1>
-            <span class="text-wrapper">
-                <span class="letters">Find Subs</span>
-            </span>
-        </h1>
-        <p>Please enter the date below that you are looking for a sub</p> 
-    </div>
-</body>
-<footer>
-    <p class="footer-text">Luke Dosen, Austin Edington, 2018</p>
-</footer>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./subs.css">
+
+        <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+        <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAIPy60Yo1goVo8KCFeLH-ZGubZGp9RIgY",
+        authDomain: "hyperscheduler-c5858.firebaseapp.com",
+        databaseURL: "https://hyperscheduler-c5858.firebaseio.com",
+        projectId: "hyperscheduler-c5858",
+        storageBucket: "hyperscheduler-c5858.appspot.com",
+        messagingSenderId: "76643166815"
+      };
+      firebase.initializeApp(config);
+      </script>
+      
+    </head>
+
+    <body>
+        <select id= "day_select" class="day_select">
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+            <option>Saturday</option>
+        </select>
+
+        <select id= "m_thru_f_times" class="m_thru_f_times">
+            <option>9:45am</option>
+            <option>10:45am</option>
+            <option>1:15pm</option>
+            <option>2:45pm</option>
+        </select>
+
+        <select id="sat_times" class="sat_times">
+            <option>10:15am</option>
+            <option>11:45am</option>
+        </select>
+
+        <button id = "back" class="back" disabled>Back</button>
+        <button id= "next" class="next">Next</button>
+
+        <button id= "find_subs" class="find_subs">Find Subs</button>
+
+        <script src="./subs.js"></script>
+    </body>
 </html>

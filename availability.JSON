@@ -1,0 +1,41 @@
+{
+    "availability_fall_2018": {
+        "days":{
+            "Monday":{
+                "9:45am": "Maria Carlee Jorge Kendall Brianna Jon",
+                "10:45am": "Jorge Luke Kendall Nicolas Drescher Andrew Jon",
+                "1:15pm": "GianniCa Hunter Amina Jorge GianniCo",
+                "2:45pm": "Hunter Emma Meredith Emmi Jorge Gabby GianniCo Luke Dresher Brian Iem Adriana"
+            },
+            "Tuesday":{
+                "9:45am": "Hunter Maria Jo GianniCo Brian",
+                "10:45am": "Maria Jo GianniCo Brianna Kelly",
+                "1:15pm": "Carlee Jo Amina Gabby Kendall Iem",
+                "2:45pm": "Carlee Elliot Hunter Maria Michelle Brian Emma Blaney"
+            },
+            "Wednesday":{
+                "9:45am": "Emma Jorge Brianna",
+                "10:45am": "Emma Luke Nicolas Drescher Andrew",
+                "1:15pm": "GianniCa Hunter Amina Emma Michelle Jorge GianniCo",
+                "2:45pm": "GianniCa Hunter Emma Jorge GianniCo Luke Brianna Iem Jon"
+
+            },
+            "Thursday":{
+                "9:45am": "Hunter Maria Jo Emmi Gabby GianniCo Brian",
+                "10:45am": "Jo Owen GianniCo Brianna Kelly",
+                "1:15pm": "Jo",
+                "2:45pm": "Therese Elliot Hunter Meredith Michelle Owen Emmi Blaney ErinF"
+            },
+            "Friday":{
+                "9:45am": "Carlee Maria Emmi Jorge Noor Kendall Jon",
+                "10:45am": "Carlee Kelly Emmi Kendall Jorge Nicolas Drescher Andrew Jon",
+                "1:15pm": "Carlee GianniCa Hunter Kelly Emmi GianniCo",
+                "2:45pm": "Carlee GianniCa Hunter Kelly Emma Gabrielle Emmi Jorge GianniCo Brian Iem ErinF Jon"
+            },
+            "Saturday":{
+                "10:15am": "Adriana Carla GianniCa Hunter Kelly Jo Rachel Therese Cindy Gabrielle Owen Jorge Freddy Gabby GianniCo Mark Alex Brianna Drescher Andrew Carlee Eric",
+                "11:45am": "Adriana Carla GianniCa Hunter Kelly Jo Rachel Therese Cindy Gabrielle Emmi Jorge Freddy Gabby GianniCo Mark Alex Brianna Drescher Andrew Carlee Eric"
+            }
+        }
+    }
+}

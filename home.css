@@ -84,6 +84,7 @@ p{
 
 .availability{
     background-color: transparent;
+    text-decoration: none;
     color: #003152;
     padding: 0px;
     width: 450px;
@@ -107,6 +108,7 @@ p{
 
 .find-subs{
     background-color: transparent;
+    text-decoration: none;
     color: #003152;
     padding: 0px;
     width: 450px;
