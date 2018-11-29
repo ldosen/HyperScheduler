@@ -21,6 +21,7 @@ function find_subs(){
             sat_times.style.display = "none";
         }
         nextBtn.style.display = "none";
+        day.disabled = true;
         subsBtn.style.display = "inline-block";
         backBtn.disabled = false; 
 
@@ -30,6 +31,8 @@ function find_subs(){
         nextBtn.style.display = "inline-block";
         subsBtn.style.display = "none";
         backBtn.disabled = true;
+        day.disabled = false;
+        subsBtn.disabled = false;
 
         sat_times.style.display = "none";
         reg_times.style.display = "none";
@@ -58,6 +61,8 @@ function find_subs(){
         .catch((e) =>{
             console.log (e);
         });
+
+        subsBtn.disabled = true; 
     });
 }
 
