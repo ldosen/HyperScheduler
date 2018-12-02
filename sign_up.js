@@ -14,6 +14,7 @@ submit.addEventListener('click', () =>{
     .then(() =>{
         firebase.auth().onAuthStateChanged(()=>{
             setUserName(name);
+            window.location.href="./mainpage.html";
         });
     })
     .catch(function(error){
