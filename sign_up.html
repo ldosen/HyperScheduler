@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creat account | HyperScheduler</title>
+    <link rel="shortcut icon" href="./shortcuticon.png"/>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAIPy60Yo1goVo8KCFeLH-ZGubZGp9RIgY",
+    authDomain: "hyperscheduler-c5858.firebaseapp.com",
+    databaseURL: "https://hyperscheduler-c5858.firebaseio.com",
+    projectId: "hyperscheduler-c5858",
+    storageBucket: "hyperscheduler-c5858.appspot.com",
+    messagingSenderId: "76643166815"
+  };
+  firebase.initializeApp(config);
+  </script>
+</head>
+<body>
+    <form>
+        First name:<br>
+        <input id="fname" type="text" name="firstname" required>
+        <br>
+        Loyola email address:<br>
+        <input id="email" type="text" name="email" value="@luc.edu" required>
+        <br>
+        Password:<br>
+        <input id="password" type="text" name="password" required>
+        <br>
+    </form>
+    <button id="submit" class="submit" disabled>Create Account</button>
+    <script src="./sign_up.js"></script>
+</body>
+</html>
