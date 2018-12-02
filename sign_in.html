@@ -1,20 +1,37 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel = "stylesheet" href="./lander.css">
-        <meta charset="UTF-8">
-        <title> Sign In | HyperScheduler</title>
-    </head>
-    <body>
-        <header class="lander-nav">
-            <nav class="lander-inner">
-                <ul class="lander-list">
-                        <li><a href=placeholder.asp>About HyperScheduler</a></li>
-                        <li><a href=placeholder.asp>Loyola</a></li>
-                        <li><a href=placeholder.asp>Kronos</a></li>
-                        <li><a href=placeholder.asp>Help</a></li>
-                </ul>
-            </nav>
-        </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in | HyperScheduler</title>
+    <link rel="shortcut icon" href="./shortcuticon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
-    </body>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAIPy60Yo1goVo8KCFeLH-ZGubZGp9RIgY",
+    authDomain: "hyperscheduler-c5858.firebaseapp.com",
+    databaseURL: "https://hyperscheduler-c5858.firebaseio.com",
+    projectId: "hyperscheduler-c5858",
+    storageBucket: "hyperscheduler-c5858.appspot.com",
+    messagingSenderId: "76643166815"
+  };
+  firebase.initializeApp(config);
+  </script>
+</head>
+<body>
+    <form>
+        Loyola e-mail address: <br>
+        <input id="email" type="text" name="email">
+        <br>
+        Password: <br>
+        <input id="password" type="text" name="password">
+        <br>
+    </form>
+    <button class="signin" id="signin">Sign in</button>
+    <script src="./sign_in.js"></script>
+</body>
+</html>
