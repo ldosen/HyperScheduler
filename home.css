@@ -49,11 +49,20 @@ p{
     font-size: 20px;
 }
 
+.homebuttonswrapper{
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .home-buttons{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    height: 400px;
     align-items: center;
 
 }
@@ -63,7 +72,7 @@ p{
     text-decoration: none;
     color: #003152;
     padding: 0px;
-    width: 450px;
+    width: 400px;
     height: 75px;
     text-align: center;
     border: 2px solid #003152;
@@ -87,7 +96,7 @@ p{
     text-decoration: none;
     color: #003152;
     padding: 0px;
-    width: 450px;
+    width: 400px;
     height: 75px;
     text-align: center;
     border: 2px solid #003152;
@@ -111,7 +120,7 @@ p{
     text-decoration: none;
     color: #003152;
     padding: 0px;
-    width: 450px;
+    width: 400px;
     height: 75px;
     text-align: center;
     border: 2px solid #003152;
@@ -140,14 +149,161 @@ p{
 }
 
 .footer-text{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0px;
     font-size: 9px;
     text-align: left;
     margin: 0px;
-    padding: 50px;
+    padding: 25px;
     background-color: #ffffff;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.loginwrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+.wrapform{
+    width: 390px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 77px 55px 33px 55px;
+}
+
+.loginform{
+    width: 100%;
+}
+
+.logintitle{
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #002e4d;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 25px; 
+}
+
+.wrap_email_input{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #002e4d;
+    margin-bottom: 37px;
+}
+
+.email{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+}
+
+.wrap_password_input{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #002e4d;
+    margin-bottom: 37px;
+}
+
+.password{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+}
+
+.submit_btn_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrap_submit_btn{
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    border:  2px solid #003152;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.big_button{
+    position: absolute;
+    color: white;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    
+    
+}
+
+.submit{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: #003152;
+    background: transparent;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.submit:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+.no_account{
+    padding-top: 115px;
+    text-align: center;
+}
+
+.sign_up_link{
+    color: #003152;
+    text-decoration: none;
+}
+
+.sign_up_link:hover{
+    color:blue;
+    transition: 0.3s;
 }

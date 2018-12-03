@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Sign in | HyperScheduler</title>
     <link rel="shortcut icon" href="./shortcuticon.png"/>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+            </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -23,15 +27,29 @@
   </script>
 </head>
 <body>
-    <form>
-        Loyola e-mail address: <br>
-        <input id="email" type="text" name="email">
-        <br>
-        Password: <br>
-        <input id="password" type="text" name="password">
-        <br>
-    </form>
-    <button class="signin" id="signin">Sign in</button>
+    <div class="loginwrapper">
+        <div class="wrapform">
+            <form class="loginform">
+                <span class="logintitle">HyperScheduler</span>
+                <div class="wrap_email_input">
+                    <input id="email" class="email" type="text" name="email" placeholder="Email">
+                </div>
+                <div class="wrap_password_input">
+                    <input id="password" class="password" type="password" name="email" placeholder="Password">
+                </div>
+            </form>
+            <div class="submit_btn_container">
+                    <div class="wrap_submit_btn">
+                        <div class="big _button">
+                            <button id="signin" class="submit">LOGIN</button>
+                        </div>
+                    </div>
+            </div>
+            <div class="no_account">
+                <span class="no_acct_txt">Don't have an account?</span>
+                <a class="sign_up_link" href="./sign_up.html">Sign up</a>
+            </div>
+        </div>
     <script src="./sign_in.js"></script>
 </body>
 </html>
