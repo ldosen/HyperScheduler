@@ -1,7 +1,8 @@
 body{
     margin: 0px;
-    background-color:#f2f2f2;
+    background-color: #003152;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
     text-rendering: optimizeLegibility;
 }
 
@@ -10,14 +11,14 @@ ul {
     margin: 0px;
     padding: 25px;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #002e4d;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 li a {
     float: left;
     display: block;
-    color: #003152;
+    color: white;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -26,8 +27,8 @@ li a {
 
 h1{
     position: relative;
-  font-weight: 900;
-  font-size: 3.3em;
+    font-weight: 900;
+    font-size: 3.3em;
 }
 
 h1 .text-wrapper{
@@ -70,7 +71,7 @@ p{
 
 .times li{
     display: block;
-    color: grey;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
