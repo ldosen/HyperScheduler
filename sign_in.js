@@ -12,13 +12,13 @@ function sign_in() {
         .then(()=>{
             firebase.auth().onAuthStateChanged(()=>{
                 window.location.href = "./mainpage.html";
-            })
+            });
         })
         .catch(function(error){
             var errorMessage = error.message;
             console.log(errorMessage);
-        })
-    })
+        });
+    });
 }
 
 sign_in();
