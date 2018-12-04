@@ -11,23 +11,42 @@ body{
     font-family: Poppins, sans-serif;
 }
 
-.nav_wrapper{
-    width: 90%;
+.nav_wrapper_transparent{
+    width: 100%;
     font-size: 14px;
     overflow: hidden;
 }
 
-.nav_bar{
+.nav_wrapper_white{
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    background: white;
+    border-bottom: 1px grey;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.nav_bar_transparent{
     list-style-type: none;
     overflow: hidden;
     margin:none;
+}
+
+.nav_bar_white{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    margin: none;
+    overflow: hidden;
+    color: black;
+    background-color: white;
 }
 
 .nav_list_item{
     float:left;
 }
 
-.nav_item_link{
+.nav_item_link_index{
     display:block;
     color: white;
     text-align: center;
@@ -35,8 +54,21 @@ body{
     text-decoration: none;
 }
 
-.nav_item_link:hover{
+.nav_item_link_default{
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav_item_link_index:hover{
     color:#bfbfbf;
+    transition: 0.1s
+}
+
+.nav_item_link_default:hover{
+    color:#595959;
     transition: 0.1s
 }
 
@@ -49,6 +81,16 @@ body{
     padding: 15px;
 }
 
+.default_wrapper{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
 .welcome_text{
     width: 500px;
     font-size: 24px;
@@ -57,6 +99,62 @@ body{
     border-radius: 10px;
     overflow: hidden;
     padding: 0px 55px 77px 55px;
+}
+
+.main_btns{
+    text-align:center;
+    width: 700px;
+    font-size: 30px;
+}
+
+.availability{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.calendar{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+.subs{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.default_link{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    background: transparent;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.default_link:hover{
+    background: white;
+    transition: 0.3s;
 }
 
 .index_description{
@@ -253,8 +351,6 @@ body{
     height: 100%;
     top: 0;
     left: -100%;
-    
-    
 }
 
 .submit{
