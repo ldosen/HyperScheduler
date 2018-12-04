@@ -34,7 +34,15 @@ password.addEventListener('keyup', ()=>{
     else{
         submit.disabled = true;
     }
-})
+});
+
+password.addEventListener('keyup', (event)=>{
+    const key = event.keyCode;
+
+    if(key === 13){
+        document.getElementById('signin').click();
+    }
+});
 
 function setUserName(name){
     let user = firebase.auth().currentUser;
