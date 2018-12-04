@@ -396,3 +396,321 @@ body{
     color: red;
     display: none;
 }
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: transparent;
+    background-image: none;
+  }
+
+  .day_select_container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #555555;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+  .day_select_container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .day_select_container:hover::after {
+    color: #0099FF;
+  }
+  .day_select_container::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+    .day_select_container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #555555;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+  .day_select_container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .day_select_container:hover::after {
+    color: #0099FF;
+  }
+  .day_select_container::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+    .day_select_container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    margin-bottom: 13px;
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #555555;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+  .day_select_container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .day_select_container:hover::after {
+    color: #0099FF;
+  }
+  .day_select_container::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+  .subs_title{
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 25px;  
+  }
+
+  .selection_buttons{
+    text-align:center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.back{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    height: 50px;
+    padding: 0px;
+    margin-top: 30px;
+    font-family: Poppins, sans-serif;
+    background: white;
+    font-size: 16px;
+}
+
+.next{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    height: 50px;
+    padding: 0px;
+    margin-top: 30px;
+    font-family: Poppins, sans-serif;
+    background: white;
+    font-size: 16px;
+}
+.search_again{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: Poppins, sans-serif;
+    background: white;
+    font-size: 16px;
+    display: none;
+}
+
+.find_subs{
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #0099FF;
+    overflow: hidden;
+    color: white;
+    padding: 0px;
+    height: 50px;
+    font-family: Poppins, sans-serif;
+    background: #0099FF;
+    font-size: 16px;
+    display: none;
+    margin-top: 30px;
+}
+
+.m_thru_f_times_container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    margin-bottom: 13px;
+    display: none;
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #555555;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+  .m_thru_f_times_container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .m_thru_f_times_container:hover::after {
+    color: #0099FF;
+  }
+  .m_thru_f_times_container::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+  .sat_times_container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3;
+    background: transparent;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    margin-bottom: 13px;
+    display: none;
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #555555;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+
+  .sat_times_container::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .sat_times_container:hover::after {
+    color: #0099FF;
+  }
+  .sat_times_container::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+
+  .who_avail{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: none;
+  }
