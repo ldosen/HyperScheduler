@@ -5,8 +5,11 @@
         <title>Find Subs | HyperSchedule</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./subs.css">
+        <link rel="stylesheet" href="./home.css">
         <link rel="shortcut icon" href="./shortcuticon.png"/>
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+                </style>
 
         <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
         <script>
@@ -25,31 +28,65 @@
     </head>
 
     <body>
-        <select id= "day_select" class="day_select">
-            <option>Monday</option>
-            <option>Tuesday</option>
-            <option>Wednesday</option>
-            <option>Thursday</option>
-            <option>Friday</option>
-            <option>Saturday</option>
-        </select>
+            <div class="nav_wrapper_white">
+                    <ul class="nav_bar_white">
+                        <li class="nav_list_item"><a class="nav_item_link_default" href="https://luc.edu/">Loyola</a></li>
+                        <li class="nav_list_item"><a class="nav_item_link_default" href="https://kronos.luc.edu/wfc/logon">Kronos</a></li>
+                        <li class="nav_list_item"><a class="nav_item_link_default" href="./about.html">Why HyperSchedule?</a></li>
+                        <li class="nav_list_item"><a class="nav_item_link_default" href="./help.html">Help</a></li>
+                    </ul>
+            </div>
+            <div class="default_wrapper">
+                <div class="wrapform">
+                    <span class="subs_title">Shift Coverage</span>
+                    <div class="day_select_container">
+                            <select id= "day_select" class="day_select">
+                                    <option>Day</option>
+                                    <option>Monday</option>
+                                    <option>Tuesday</option>
+                                    <option>Wednesday</option>
+                                    <option>Thursday</option>
+                                    <option>Friday</option>
+                                    <option>Saturday</option>
+                                </select>
+                    </div>
+                    <div id="m_thru_f_times_container" class="m_thru_f_times_container">
+                            <select id= "m_thru_f_times" class="m_thru_f_times">
+                                    <option>9:45am</option>
+                                    <option>10:45am</option>
+                                    <option>1:15pm</option>
+                                    <option>2:45pm</option>
+                                </select>
+                    </div>
+                    <div id="sat_times_container" class="sat_times_container">
+                            <select id="sat_times" class="sat_times">
+                                    <option>10:15am</option>
+                                    <option>11:45am</option>
+                                </select>
+                    </div>
+                    <div class="selection_buttons">
+                        <div class="back_btn">
+                            <button id="back" class="back" disabled>Back</button>
+                        </div>
+                        <div class="next_btn">
+                                <button id="next" class="next">Next</button>
+                            </div>
+                        <div class="search_again_btn">
+                            <button id = "search_again" class="search_again" >Search Again</button>
+                        </div>
+                        <div class="find_subs_btn">
+                            <button id= "find_subs" class="find_subs">Check Availability</button>
+                        </div>
+                    </div>
+                    <span id="who_avail" class="who_avail">Here's who's available:</span>
+                    </div>
+                </div>
+            </div>
 
-        <select id= "m_thru_f_times" class="m_thru_f_times">
-            <option>9:45am</option>
-            <option>10:45am</option>
-            <option>1:15pm</option>
-            <option>2:45pm</option>
-        </select>
 
-        <select id="sat_times" class="sat_times">
-            <option>10:15am</option>
-            <option>11:45am</option>
-        </select>
-
-        <button id = "back" class="back" disabled>Back</button>
-        <button id= "next" class="next">Next</button>
-
-        <button id= "find_subs" class="find_subs">Find Subs</button>
+        <footer>
+                <p class="footer_text">Luke Dosen, Austin Edington, 2018</p>
+            </footer>
 
         <script src="./subs.js"></script>
     </body>
