@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Creat account | HyperScheduler</title>
     <link rel="shortcut icon" href="./shortcuticon.png"/>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+        </style>
     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
     <script>
   // Initialize Firebase
@@ -21,18 +25,35 @@
   </script>
 </head>
 <body>
-    <form>
-        First name:<br>
-        <input id="fname" type="text" name="firstname" required>
-        <br>
-        Loyola email address:<br>
-        <input id="email" type="text" name="email" value="@luc.edu" required>
-        <br>
-        Password:<br>
-        <input id="password" type="text" name="password" required>
-        <br>
-    </form>
-    <button id="submit" class="submit" disabled>Create Account</button>
+    <body>
+        <div class="loginwrapper">
+            <div class="wrapform">
+                <form id="loginform" class="loginform">
+                    <span class="logintitle">HyperSchedule</span>
+                    <div class="wrap_name_input">
+                        <input id="fname" class="fname" type="text" name="fname" placeholder="First Name">
+                    </div>
+                    <div class="wrap_email_input">
+                        <input id="email" class="email" type="text" name="email" placeholder="Email">
+                    </div>
+                    <div id= "wrap_password_input" class="wrap_password_input">
+                        <input id="password" class="password" type="password" name="email" placeholder="Password">
+                    </div>
+                </form>
+                <p id="pass_warning" class="pass_warning">Password must contain: <br> One upper case letter <br> One lower case letter <br> One number <br> Seven or more characters</p>
+                <div class="submit_btn_container">
+                        <div class="wrap_submit_btn">
+                            <div class="big _button">
+                                <button id="submit" class="submit" disabled>CREATE ACCOUNT</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="no_account">
+                    <span class="no_acct_txt">Already have an account?</span>
+                    <a class="sign_up_link" href="./sign_in.html">Sign in</a>
+                </div>
+            </div>
+    <script src=./anime-master/anime.min.js></script>
     <script src="./sign_up.js"></script>
 </body>
 </html>

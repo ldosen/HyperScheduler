@@ -30,9 +30,13 @@ password.addEventListener('keyup', ()=>{
     let numbers = /[0-9]/g;
     if(password.value.match(lowerCaseLetters) && password.value.match(upperCaseLetters) && password.value.match(numbers) && password.value.length > 7){
         submit.disabled = false;
+        document.getElementById('wrap_password_input').style.borderBottom = "2px solid black";
+        document.getElementById('pass_warning').style.display = "none";
     }
     else{
         submit.disabled = true;
+        document.getElementById('pass_warning').style.display = "block";
+        document.getElementById('wrap_password_input').style.borderBottom = "2px solid #ff0000";
     }
 });
 
