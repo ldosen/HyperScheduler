@@ -1,9 +1,29 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="./style.css">
-        <meta charset="UTF-8">
-        <title> Availability</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="shortcut icon" href="./shortcuticon.png"/>
+      <link rel='stylesheet' href='style.css' />
+      <title>Availability | HyperSchedule</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./subs.css">
+      <link rel="shortcut icon" href="./shortcuticon.png"/>
+
+      <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+      <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAIPy60Yo1goVo8KCFeLH-ZGubZGp9RIgY",
+      authDomain: "hyperscheduler-c5858.firebaseapp.com",
+      databaseURL: "https://hyperscheduler-c5858.firebaseio.com",
+      projectId: "hyperscheduler-c5858",
+      storageBucket: "hyperscheduler-c5858.appspot.com",
+      messagingSenderId: "76643166815"
+    };
+    firebase.initializeApp(config);
+    </script>
     </head>
     <body>
             <header>
@@ -15,128 +35,129 @@
                     </ul>
                 </header>
         <div class="semester"> Fall Semester 2018 Tours</div>
-        <ul class="days">
-            <li>Mon
+        <ul id = "days" class="days">
+            <li id = "Monday">Monday
                         <label class="container">9:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">12:45 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">1:15 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">2:45 pm
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
+                                <input id = "checkbox" type="checkbox">
+                                <span id = "checkmark" class="checkmark"></span>
                               </label>
             </li>
-            <li>Tue
+            <li id = "Tuesday">Tuesday
                     <label class="container">9:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">12:45 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">1:15 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">2:45 pm
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
+                                <input id = "checkbox" type="checkbox">
+                                <span id = "checkmark" class="checkmark"></span>
                               </label>
             </li>
-            <li>Wed
+            <li id = "Wednesday">Wednesday
                     <label class="container">9:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">12:45 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">1:15 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">2:45 pm
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
+                                <input id = "checkbox" type="checkbox">
+                                <span id = "checkmark" class="checkmark"></span>
                               </label>
             </li>
-            <li>Thu
+            <li id = "Thursday">Thursday
                     <label class="container">9:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">12:45 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">1:15 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">2:45 pm
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
+                                <input id = "checkbox" type="checkbox">
+                                <span id = "checkmark" class="checkmark"></span>
                               </label>
             </li>
-            <li>Fri
+            <li id = "Friday">Friday
                     <label class="container">9:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">12:45 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">1:15 pm
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">2:45 pm
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
+                                <input id = "checkbox" type="checkbox">
+                                <span id = "checkmark" class="checkmark"></span>
                               </label>
             </li>
-            <li>Sat
+            <li id = "Saturday">Saturday
                     <label class="container">10:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
                           <label class="container">11:45 am
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
+                            <input id = "checkbox" type="checkbox">
+                            <span id = "checkmark" class="checkmark"></span>
                           </label>
             </li>
         </ul>
-        <button class="submit">Submit</button>
+        <button id= "submit" class="submit">Submit</button>
+        <script src = "./availability.js"></script>
     </body>
 </html>
