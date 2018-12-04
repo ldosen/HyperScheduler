@@ -4,151 +4,101 @@ body{
     font-family: Poppins, sans-serif;
     text-rendering: optimizeLegibility;
 }
-
-ul {
-    list-style-type: none;
+.index{
+    background-image: url(https://www.luc.edu/media/lucedu/loyolamagazine/images/Alma%20Matters.JPG);
+    background-size: cover;
     margin: 0px;
-    padding: 25px;
-    overflow: hidden;
-    background-color: #ffffff;
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    font-family: Poppins, sans-serif;
 }
 
-li a {
-    float: left;
-    display: block;
-    color: #003152;
+.nav_wrapper{
+    width: 90%;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.nav_bar{
+    list-style-type: none;
+    overflow: hidden;
+    margin:none;
+}
+
+.nav_list_item{
+    float:left;
+}
+
+.nav_item_link{
+    display:block;
+    color: white;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-h1{
-    position: relative;
-  font-weight: 900;
-  font-size: 3.3em;
+.nav_item_link:hover{
+    color:#bfbfbf;
+    transition: 0.1s
 }
 
-h1 .text-wrapper{
-    position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-h1 .letter{
-    display: inline-block;
-  line-height: 1em;
-}
-
-
-p{
-    font-size: 20px;
-}
-
-.homebuttonswrapper{
-    height: 200px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.home-buttons{
+.welcome_wrapper{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    align-items: top;
+    padding: 15px;
+}
+
+.welcome_text{
+    width: 500px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px 55px 77px 55px;
+}
+
+.index_description{
+    font-size: 18px;
+}
+
+.start_btn{
+    width: 100%;
+    font-size: 16px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+.get_started{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: transparent;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     align-items: center;
-
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
 }
 
-.calendar{
-    background-color: transparent;
-    text-decoration: none;
-    color: #003152;
-    padding: 0px;
-    width: 400px;
-    height: 75px;
-    text-align: center;
-    border: 2px solid #003152;
-    font-size: 50px;
-    margin: 50px;
-    border-radius: 25px;
-}
-
-.calendar:hover{
-    height: 125px;
+.get_started:hover{
+    color: black;
+    background: white;
     transition: 0.3s;
 }
 
-.calendar:hover .sub-text{
-    opacity: 1.0;
-    transition: 0.3s;
-}
 
-.availability{
-    background-color: transparent;
-    text-decoration: none;
-    color: #003152;
-    padding: 0px;
-    width: 400px;
-    height: 75px;
-    text-align: center;
-    border: 2px solid #003152;
-    font-size: 50px;
-    margin: 50px;
-    border-radius: 25px;
-}
-
-.availability:hover{
-    height: 125px;
-    transition: 0.3s;
-}
-
-.availability:hover .sub-text{
-    opacity: 1.0;
-    transition: 0.3s;
-}
-
-.find-subs{
-    background-color: transparent;
-    text-decoration: none;
-    color: #003152;
-    padding: 0px;
-    width: 400px;
-    height: 75px;
-    text-align: center;
-    border: 2px solid #003152;
-    font-size: 50px;
-    margin: 50px;
-    border-radius: 25px;
-}
-
-.find-subs:hover{
-    height: 125px;
-    transition: 0.3s;
-}
-
-.find-subs:hover .sub-text{
-    opacity: 1.0;
-    transition: 0.3s;
-}
-
-.sub-text{
-    padding: 0px;
-    display: block;
-    color: #003152;
-    margin: 0px; 
-    font-size: 14px;
-    opacity: 0;
-}
-
-.footer-text{
+.footer_text{
     margin:0 auto;
     width:100%;
     height:auto;
@@ -159,8 +109,23 @@ p{
     text-align: left;
     margin: 0px;
     padding: 25px;
-    background-color: #ffffff;
+    background-color: white;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.footer_text_index{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0px;
+    font-size: 9px;
+    text-align: left;
+    margin: 0px;
+    padding: 25px;
+    color: white;
+    background-color: transparent;
 }
 
 .loginwrapper{
@@ -274,7 +239,7 @@ p{
     display: block;
     position: relative;
     z-index: 1;
-    border-radius: 25px;
+    border-radius: 10px;
     border: none;
     overflow: hidden;
     margin: 0 auto;

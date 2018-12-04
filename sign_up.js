@@ -44,7 +44,7 @@ password.addEventListener('keyup', (event)=>{
     const key = event.keyCode;
 
     if(key === 13){
-        document.getElementById('signin').click();
+        document.getElementById('submit').click();
     }
 });
 
